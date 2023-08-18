@@ -2,4 +2,5 @@
 .vscode
 build
 CMakeSettings.json
-/.cache
+.cache
+cmake-build-debug
