@@ -26,8 +26,6 @@ struct ListNode
     int val;
     ListNode *next;
     ListNode() : val(0), next(nullptr) {};
-    ListNode(int x) : val(x), next(nullptr) {};
-    ListNode(int x = 0, ListNode *p = nullptr) : val(x), next(p){};
 };
 
 void print_list(ListNode *head);
